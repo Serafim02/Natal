@@ -1,0 +1,44 @@
+body {
+    /* Define a imagem de fundo e configurações adicionais */
+    background-image: url('imgs/cute-christmas-tree-scaled.jpg');
+    background-size: cover; /* Para cobrir todo o corpo da página */
+    background-position: center; /* Para centralizar a imagem */
+    background-repeat: no-repeat; /* Para não repetir a imagem */
+  }
+
+  .container {
+    justify-content: space-between;
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 250px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #countdown {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  
+  .progress-container {
+    width: 650px;
+    background-color: #a6a6a6;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 550px;
+  }
+  
+  .progress-bar {
+    height: 25px;
+    background-color: #4CAF50;
+    width: 0;
+    transition: width 1s ease-in-out;
+    
+  }
+
+ 
